@@ -1,0 +1,31 @@
+.contacto {
+  position: fixed;
+  z-index: 1;
+  top: 250px;
+  right: 30px;
+}
+.contacto-img {
+  width: 30px;
+  height: 30px;
+}
+.contacto-img:hover {
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (min-width: 769px) {
+  .contacto-img {
+    width: 40px;
+    height: 40px;
+  }
+  .contacto {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    right: 30px;
+  }
+  .contacto-img:hover {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transition-duration: 0.5s;
+  }
+}

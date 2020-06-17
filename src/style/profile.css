@@ -1,0 +1,36 @@
+.profile-subtitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  width: 80%;
+  color: var(--color-verde-medio);
+}
+.profile-subtitle-p{
+  text-align: center;
+  color: var(--color-rojo);
+   font-family: 'Shadows Into Light', cursive;
+}
+.profile-container {
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  height: 200px;
+}
+
+@media only screen and (min-width: 769px) {
+  .profile-subtitle {
+    font-size: 20px;
+    width: 100%;
+  }
+  .profile-container {
+    height: 400px;
+    flex-flow: row;
+  }
+  .profile-img {
+    height: 500px;
+  }
+}

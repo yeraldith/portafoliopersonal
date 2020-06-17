@@ -1,0 +1,9 @@
+.nav-link-home {
+  margin:20px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--color-verde-claro);
+}
+.nav-link-home:hover{
+  color:var(--color-rojo)
+}

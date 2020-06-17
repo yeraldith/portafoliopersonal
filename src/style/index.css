@@ -1,0 +1,20 @@
+  @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+:root{
+/* Color Theme Swatches in RGBA */
+--color-azul-claro:  rgba(167, 199, 242, 1); 
+--color-azul-medio: rgba(3, 138, 191, 1); 
+--color-verde-claro: rgba(2, 114, 103, 1); 
+--color-verde-medio: rgba(1, 89, 80, 1); 
+--color-rojo: rgba(242, 80, 21, 1); 
+}
+
+  body {
+  margin: 0;
+ font-family: 'Shadows Into Light', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Shadows Into Light', cursive;
+}
